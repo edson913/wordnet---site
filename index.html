@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WordNet - Internet Fibra Óptica</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #1a237e; /* azul marinho */
+      --accent: #d1c4e9; /* roxo claro */
+      --white: #ffffff;
+    }
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: var(--white);
+      color: var(--primary);
+    }
+    header, footer {
+      background: var(--primary);
+      color: var(--white);
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      color: var(--white);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .hero {
+      background: var(--accent);
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .hero h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    .hero p {
+      font-size: 1.2em;
+      margin: 20px 0;
+    }
+    .button {
+      background: var(--primary);
+      color: var(--white);
+      padding: 15px 30px;
+      border: none;
+      border-radius: 10px;
+      font-size: 1em;
+      text-decoration: none;
+    }
+    .plans {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 40px 20px;
+      gap: 20px;
+    }
+    .plan {
+      border: 2px solid var(--accent);
+      border-radius: 12px;
+      padding: 20px;
+      width: 250px;
+      text-align: center;
+    }
+    .plan h3 {
+      margin: 0 0 10px;
+    }
+    .contact-form {
+      padding: 40px 20px;
+      max-width: 600px;
+      margin: auto;
+    }
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+    .contact-form button {
+      margin-top: 15px;
+      background: var(--primary);
+      color: var(--white);
+      border: none;
+      padding: 12px 20px;
+      border-radius: 8px;
+      font-size: 1em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>WordNet</h1>
+    <nav>
+      <a href="#planos">Planos</a>
+      <a href="#cobertura">Cobertura</a>
+      <a href="#suporte">Suporte</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Internet fibra óptica de verdade!</h1>
+    <p>Instalação gratuita com fidelidade ou R$150 sem fidelidade.</p>
+    <a class="button" href="https://wa.me/5581985712239">Fale com a gente no WhatsApp</a>
+  </section>
+
+  <section class="plans" id="planos">
+    <div class="plan">
+      <h3>Plano 100MB</h3>
+      <p>Ideal para redes sociais e vídeos</p>
+    </div>
+    <div class="plan">
+      <h3>Plano 500MB</h3>
+      <p>Mais velocidade para toda a casa</p>
+    </div>
+    <div class="plan">
+      <h3>Plano 800MB</h3>
+      <p>Ultra performance para gamers e streamers</p>
+    </div>
+  </section>
+
+  <section class="hero" id="cobertura">
+    <h2>Área de cobertura</h2>
+    <p>Atendemos a região de Fortaleza da Barra</p>
+  </section>
+
+  <section class="hero" id="suporte">
+    <h2>Suporte</h2>
+    <p>Horário de atendimento: 8h às 18h</p>
+    <p>WhatsApp: (81) 98571-2239 / (81) 98840-3574</p>
+  </section>
+
+  <section class="contact-form" id="contato">
+    <h2>Fale com a gente</h2>
+    <form action="mailto:wordn786@gmail.com" method="POST" enctype="text/plain">
+      <input type="text" name="nome" placeholder="Seu nome" required>
+      <input type="email" name="email" placeholder="Seu e-mail" required>
+      <input type="tel" name="telefone" placeholder="Seu telefone">
+      <textarea name="mensagem" rows="5" placeholder="Mensagem"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 WordNet. Todos os direitos reservados.</p>
+    <p>Email: wordn786@gmail.com</p>
+  </footer>
+</body>
+</html>
